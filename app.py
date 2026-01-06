@@ -1,5 +1,6 @@
 import os
-from mcp.server.fast.mcp import FastMCP
+from mcp.server import Server
+from mcp.types import Tool
 
 mcp = FastMCP("talk2Action", json_response=True)
 
